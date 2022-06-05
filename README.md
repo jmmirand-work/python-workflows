@@ -2,14 +2,12 @@
 
 Mis propios Workflows asociados a Python
 
-
 ## Build and Test
 
-Este workflows consturye y ejecuta los test que tengamos implementado. 
+Este workflows consturye y ejecuta los test que tengamos implementado.
 
-    * No necesita variables de entrada ni secretos.
-
-    * La estructura del proyecto
+* No necesita variables de entrada ni secretos.
+* La estructura del proyecto
 
 ``` text
     proyecto_path\
@@ -23,7 +21,7 @@ Este workflows consturye y ejecuta los test que tengamos implementado.
 
 ```
 
-  * Uso
+* Uso
 
 ``` yaml
     jobs:
