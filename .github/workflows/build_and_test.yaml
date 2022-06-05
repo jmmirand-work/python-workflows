@@ -43,7 +43,8 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        mkdir ${GITHUB_WORKSPACE}/.temp
+        source ./test/init-test.sh
+        mkdir ${MJ_DB_BASE_PATH}
         export PYTHONPATH=${GITHUB_WORKSPACE}/src:${GITHUB_WORKSPACE}/test
         echo "PAth modulos => ${PYTHONPATH}"
         pipenv run pytest
