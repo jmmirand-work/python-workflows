@@ -10,14 +10,15 @@ Este workflows consturye y ejecuta los test que tengamos implementado.
 * La estructura del proyecto
 
 ``` text
-    proyecto_path\
-            Pipfile
-            src\
-              file1.py
-              file2.py
-            test\
-              init-test.sh
-              test1.py
+proyecto_path\
+                Pipfile
+
+                src\
+                      file1.py
+                      file2.py
+                test\
+                      init-test.sh
+                      test1.py
 
 ```
 
