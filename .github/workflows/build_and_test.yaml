@@ -45,7 +45,5 @@ jobs:
       run: |
         mkdir ${GITHUB_WORKSPACE}/.temp
         export PYTHONPATH=${GITHUB_WORKSPACE}/src:${GITHUB_WORKSPACE}/test
-        export MJ_DB_BASE_FILE_PATH=${GITHUB_WORKSPACE}/.temp/bullet.db
-        export MJ_DB_BASE_PATH=${GITHUB_WORKSPACE}/.temp/
         echo "PAth modulos => ${PYTHONPATH}"
         pipenv run pytest
